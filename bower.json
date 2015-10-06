@@ -1,0 +1,7 @@
+{
+  "name": "expressupload",
+  "version": "0.1.0",
+  "dependencies": {
+    "ng-file-upload": "~7.0.15"
+  }
+}
