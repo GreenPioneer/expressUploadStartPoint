@@ -8,8 +8,8 @@ var path = require('path'),
     multipart = require('connect-multiparty'),
     multipartyMiddleware = multipart(),
     app = express(),
-    // fileFolderPath = './public/files/',
-    // uploadDir = path.resolve(__dirname, fileFolderPath);
+    fileFolderPath = './public/files/',
+    uploadDir = path.resolve(__dirname, fileFolderPath);
 //configs
 app.set('port', process.env.PORT || 3000);
 app.use(bodyParser.json());
